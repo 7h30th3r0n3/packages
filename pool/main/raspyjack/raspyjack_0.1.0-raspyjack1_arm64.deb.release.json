@@ -1,0 +1,10 @@
+{
+  "filename": "raspyjack_0.1.0-raspyjack1_arm64.deb",
+  "url": "https://github.com/7h30th3r0n3/packages/releases/download/czdev-buffer/raspyjack_0.1.0-raspyjack1_arm64.deb",
+  "sha256": "9b12d22800e028a9470c5c726b9aa57c062d51eb3de6932d701806f7f812d51f",
+  "size": 26881484,
+  "package": "raspyjack",
+  "version": "0.1.0-raspyjack1",
+  "architecture": "arm64",
+  "uploaded_by": "7h30th3r0n3"
+}
