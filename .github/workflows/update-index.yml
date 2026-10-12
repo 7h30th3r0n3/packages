@@ -125,7 +125,8 @@ jobs:
         run: |
           set -euo pipefail
           REL_BASE="${{ github.server_url }}/${{ github.repository }}/releases/download/${POOL_TAG}"
-          mkdir -p public/dists/stable/main/binary-arm64
+          # Git does not preserve pool/ after the last app is removed.
+          mkdir -p pool/main public/dists/stable/main/binary-arm64
 
           # Pages serves metadata + screenshots + meta.json, but NOT the .deb files.
           rsync -a --exclude='*.deb' pool/ public/pool/
@@ -197,6 +198,8 @@ jobs:
           # regenerate Packages with RELATIVE Filename so apt/registry resolve
           # the binaries from OSS itself.
           rsync -a public/ oss-public/
+          # An empty catalog has no .deb files to copy.
+          shopt -s nullglob
           for deb in release-debs/*.deb; do
             base=$(basename "$deb")
             pkg=${base%%_*}
