@@ -7,3 +7,4 @@ release-debs/
 # Release (and the Aliyun OSS mirror). Each package carries a
 # <pkg>_<ver>_<arch>.deb.release.json manifest instead.
 *.deb
+*.DS_Store
