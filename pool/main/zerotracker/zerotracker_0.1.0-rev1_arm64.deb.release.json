@@ -1,0 +1,11 @@
+{
+  "filename": "zerotracker_0.1.0-rev1_arm64.deb",
+  "url": "https://github.com/andreahaku/packages/releases/download/czdev-buffer/zerotracker_0.1.0-rev1_arm64.deb",
+  "sha256": "9f52618d9b374901eb1dc8ac83a436bf41be4fb9ed3016b5719b95bd945a4c34",
+  "size": 15846436,
+  "package": "zerotracker",
+  "version": "0.1.0-rev1",
+  "architecture": "arm64",
+  "uploaded_by": "andreahaku",
+  "uploader_email": "andreahaku@gmail.com"
+}
