@@ -1,0 +1,11 @@
+{
+  "filename": "tic80-c0_1.3.1-rev1_arm64.deb",
+  "url": "https://github.com/andreahaku/packages/releases/download/czdev-buffer/tic80-c0_1.3.1-rev1_arm64.deb",
+  "sha256": "e9945b3656923dd60b64202c74f3afbf541eccd4019e706fc5b20d7e08ba22f0",
+  "size": 2289112,
+  "package": "tic80-c0",
+  "version": "1.3.1-rev1",
+  "architecture": "arm64",
+  "uploaded_by": "andreahaku",
+  "uploader_email": "andreahaku@gmail.com"
+}

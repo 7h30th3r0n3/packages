@@ -1,0 +1,44 @@
+{
+  "title": "TIC-80",
+  "summary": "TIC-80 fantasy computer: make, play and share tiny retro games",
+  "categories": [
+    "Games",
+    "Development"
+  ],
+  "screenshots": [
+    "screenshots/01-quest.png",
+    "screenshots/02-code-editor.png",
+    "screenshots/03-console.png",
+    "screenshots/04-fire.png",
+    "screenshots/05-p3d.png",
+    "screenshots/06-car.png"
+  ],
+  "description": "TIC-80 is a fantasy computer for making, playing and sharing tiny games, by Vadim Grigoruk (nesbox). This is an unofficial build for the CardputerZero, not affiliated with nesbox.\n\n- Runs on the internal panel: the 240x136 TIC-80 screen at scale 1 inside its border.\n- Gamepad on the keyboard: F/X/Z/C move, L/K are A/B, O/I are X/Y. Change it in the game menu under Options.\n- Console and code editor work from the keyboard. Write games in Lua, JavaScript, Python, Fennel, MoonScript, Wren, Janet, Squirrel, Scheme, Forth or WASM.\n- Type demo in the console to install the demo carts, then load tetris.tic and run.\n\nThe sprite, map and music editors expect a mouse. Type exit in the console to go back to the launcher.",
+  "locales": {
+    "en": {
+      "summary": "TIC-80 fantasy computer: make, play and share tiny retro games"
+    },
+    "it": {
+      "summary": "Il fantasy computer TIC-80: crea, gioca e condividi piccoli giochi retrò"
+    }
+  },
+  "license": "MIT",
+  "source_repo": "https://github.com/andreahaku/tic80-c0",
+  "icon": "tic80-c0.png",
+  "permissions": {
+    "camera": false,
+    "microphone": false,
+    "imu": false,
+    "network": true,
+    "additional_hardware": false,
+    "background_service": false,
+    "external_display": false
+  },
+  "share_code": "TC80",
+  "author": {
+    "github": "andreahaku",
+    "display_name": "Andrea Salvatore (IU4APC)"
+  },
+  "published_at": "2026-10-20T13:55:23+00:00",
+  "updated_at": "2026-10-20T13:55:23+00:00"
+}
